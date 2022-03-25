@@ -7,11 +7,21 @@ public class Square {
 	int height;
 	String color;
 	//삼각형 객체의 속성
+
+	public Square(int a, int b) { 
+		width=a;
+		height=b;
+		int area = width*height;
+		System.out.println("사각형의 넓이는"+area);
 		
-	int square_area() {
-		int area = width * height;
-	
-		return area; 
 	}
 	
+	void square_init(int width, int height) {
+		this.width = width;
+		this.height = height;
+		
+	}
+	
+	
+ 
 }
