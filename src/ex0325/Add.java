@@ -2,16 +2,16 @@ package ex0325;
 
 public class Add {
 
-	public int a;
-	public int b;
+	public int a, b;
 	
-	public void set(int a, int b) {
+	public Add(int a, int b) {
 	this.a=a;
 	this.b=b;
 	}
 	
-	public void cal(){
+	public int Cal(){
 	int sum=a+b;
-	System.out.print(sum);	
+	return sum;	
+				
 	}
 }

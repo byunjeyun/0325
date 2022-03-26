@@ -5,14 +5,14 @@ public class Mul {
 	public int a;
 	public int b;
 	
-	public void set(int a, int b) {
+	public Mul(int a, int b) {
 	this.a=a;
 	this.b=b;
 	}
 	
-	public void cal(){
-	int mul=a*b;
-	System.out.print(mul);	
+	public int Cal(){
+	int mul1 = a*b;
+	return mul1;	
 	}
 }
 

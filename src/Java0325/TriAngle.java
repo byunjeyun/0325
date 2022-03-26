@@ -23,7 +23,6 @@ public class TriAngle {
 	
 	double tri_area() {
 		double area = bottom * height * 0.5;
-				
-				return area;
+			return area;
 	}
 }

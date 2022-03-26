@@ -33,7 +33,7 @@ public class ClassObject0325 {
 		tri2.height = 5;
 		tri2.color = "red";
 		double s2 = tri2.tri_area();
-		System.out.println(s);
+		System.out.println(s2);
 				
 		Square squ = new Square(4, 4);
 //		squ.width = 4;

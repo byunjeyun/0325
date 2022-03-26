@@ -6,14 +6,14 @@ public class Sub {
 	public int a;
 	public int b;
 	
-	public void set(int a, int b) {
+	public Sub(int a, int b) {
 	this.a=a;
 	this.b=b;
 	}
 	
-	public void cal(){
-	int sub=a-b;
-	System.out.print(sub);	
+	public int Cal(){
+	int sub1=a-b;
+	return sub1;	
 	}
 }
 

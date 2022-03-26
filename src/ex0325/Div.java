@@ -2,16 +2,17 @@ package ex0325;
 
 public class Div {
 
-	public int a;
-	public int b;
+	public double a;
+	public double b;
 	
-	public void set(int a, int b) {
+	public Div(double a, double b) {
 	this.a=a;
 	this.b=b;
 	}
 	
-	public void cal(){
-	int div=a/b;
-	System.out.print(div);	
+	public double Cal(){
+	double div1=a/b;
+	
+	return div1;	
 	}
 }
